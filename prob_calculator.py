@@ -33,8 +33,9 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
   For example, if you want to determine the probability of getting at 
   least two red balls and one green ball when you draw five balls from a 
   hat containing six black, four red, and three green. To do this, you 
-  will perform N experiments, count how many times M you get at least two red balls and   one green ball, and estimate the probability as M/N.
-   Each experiment consists of starting with a hat containing the 
+  will perform N experiments, count how many times M you get at least two 
+  red balls and   one green ball, and estimate the probability as M/N.
+  Each experiment consists of starting with a hat containing the 
   specified balls, drawing several balls, and checking if you got the 
   balls you were attempting to draw.
   '''
